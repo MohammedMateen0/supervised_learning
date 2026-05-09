@@ -237,6 +237,132 @@ Classification metrics used:
 
 ---
 
+# Week 5 Day 3 — Random Forest & Ensemble Learning
+
+This project explores ensemble learning using Random Forests for both classification and regression tasks with Scikit-learn.
+
+Topics implemented:
+- Ensemble Learning
+- Random Forest Classification
+- Random Forest Regression
+- Feature Importance
+- OOB Scoring
+- Hyperparameter Tuning
+- Permutation Importance
+- Prediction Intervals
+
+---
+
+# Project Structure
+
+```text
+week5_supervised_learning/
+│
+├── notebooks/
+│   ├── day1_regression.ipynb
+│   ├── day2_decision_trees.ipynb
+│   └── day3_random_forest.ipynb
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
+
+---
+
+# Concepts Covered
+
+## Ensemble Learning
+
+Random Forest combines multiple decision trees to reduce variance and improve generalization.
+
+Ensemble variance:
+
+:contentReference[oaicite:0]{index=0}
+
+Topics:
+- Bagging
+- Variance reduction
+- Feature bagging
+- Tree decorrelation
+
+---
+
+## Random Forest Classification
+
+Classification model trained for restaurant quality prediction.
+
+Topics:
+- OOB Score
+- ROC-AUC
+- Class balancing
+- Feature importance
+
+---
+
+## Random Forest Regression
+
+Regression model trained for apartment price prediction.
+
+Topics:
+- RMSE
+- R² Score
+- Prediction intervals
+- Non-linear relationships
+
+---
+
+## Hyperparameter Tuning
+
+RandomizedSearchCV used for tuning:
+- n_estimators
+- max_depth
+- max_features
+- min_samples_leaf
+- min_samples_split
+
+---
+
+## Feature Importance
+
+Two methods compared:
+- Mean Decrease Impurity (MDI)
+- Permutation Importance
+
+---
+
+# Evaluation Metrics
+
+Classification:
+- Accuracy
+- ROC-AUC
+- Classification Report
+
+Regression:
+- RMSE
+- R² Score
+
+---
+
+# Libraries Used
+
+- NumPy
+- Pandas
+- Scikit-learn
+
+---
+
+# Skills Practiced
+
+- Ensemble learning
+- Random Forest modeling
+- Hyperparameter tuning
+- Feature importance analysis
+- OOB validation
+- Regression and classification workflows
+
+---
+
 # How to Run
 
 ```bash
@@ -250,6 +376,7 @@ Open:
 ```text
 notebooks/day1_regression.ipynb
 notebooks/day2_decision_trees.ipynb
+notebooks/day3_random_forest.ipynb
 ```
 
 ---
@@ -257,4 +384,4 @@ notebooks/day2_decision_trees.ipynb
 # Author
 
 Mohammed Mateen  
-Machine Learning & Data Science May — 2026
+Machine Learning & Data Science Journey — 2026
