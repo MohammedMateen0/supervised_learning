@@ -363,10 +363,143 @@ Regression:
 
 ---
 
+# Week 5 Day 4 — Model Evaluation & Validation
+
+This project explores machine learning evaluation metrics and validation strategies for both classification and regression models using Scikit-learn.
+
+Topics implemented:
+- Confusion Matrix
+- Precision & Recall
+- F1 Score
+- ROC-AUC vs PR-AUC
+- Threshold Tuning
+- Cross-Validation
+- Stratified K-Fold
+- Regression Metrics
+
+---
+
+# Project Structure
+
+```text
+week5_supervised_learning/
+│
+├── notebooks/
+│   ├── day1_regression.ipynb
+│   ├── day2_decision_trees.ipynb
+│   ├── day3_random_forest.ipynb
+│   └── day4_model_evaluation.ipynb
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
+
+---
+
+# Concepts Covered
+
+## Confusion Matrix
+
+Used to evaluate classification predictions.
+
+Topics:
+- True Positives
+- False Positives
+- False Negatives
+- True Negatives
+
+---
+
+## Precision & Recall
+
+Precision:
+
+:contentReference[oaicite:0]{index=0}
+
+Recall:
+
+:contentReference[oaicite:1]{index=1}
+
+Topics:
+- class imbalance
+- business tradeoffs
+- medical diagnosis intuition
+
+---
+
+## F1 Score
+
+Balances precision and recall.
+
+:contentReference[oaicite:2]{index=2}
+
+---
+
+## ROC-AUC vs PR-AUC
+
+Evaluation of classification ranking performance.
+
+Topics:
+- imbalanced datasets
+- fraud detection scenarios
+- rare event classification
+
+---
+
+## Threshold Tuning
+
+Classification probabilities converted into predictions using thresholds.
+
+Topics:
+- precision-recall tradeoff
+- business cost optimization
+- threshold sensitivity analysis
+
+---
+
+## Cross-Validation
+
+Validation strategies implemented:
+- K-Fold
+- Stratified K-Fold
+- TimeSeriesSplit
+
+---
+
+## Regression Metrics
+
+Metrics implemented:
+- MAE
+- RMSE
+- MAPE
+- R² Score
+
+---
+
+# Libraries Used
+
+- NumPy
+- Pandas
+- Scikit-learn
+
+---
+
+# Skills Practiced
+
+- Model evaluation
+- Validation strategies
+- Classification analysis
+- Imbalanced learning evaluation
+- Regression metric comparison
+- Threshold optimization
+
+---
+
 # How to Run
 
 ```bash
-git clone  https://github.com/MohammedMateen0/supervised_learning.git
+git clone https://github.com/MohammedMateen0/supervised_learning.git
 pip install -r requirements.txt
 jupyter notebook
 ```
@@ -377,6 +510,7 @@ Open:
 notebooks/day1_regression.ipynb
 notebooks/day2_decision_trees.ipynb
 notebooks/day3_random_forest.ipynb
+notebooks/day4_model_evaluation.ipynb
 ```
 
 ---
@@ -384,4 +518,4 @@ notebooks/day3_random_forest.ipynb
 # Author
 
 Mohammed Mateen  
-Machine Learning & Data Science Journey — 2026
+Machine Learning & Data Science May — 2026
