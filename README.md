@@ -496,6 +496,118 @@ Metrics implemented:
 
 ---
 
+# Week 5 Day 5 — Bias Variance & Regularization
+
+This project explores bias-variance tradeoff and regularization techniques using Scikit-learn.
+
+Topics implemented:
+- Bias vs Variance
+- Learning Curves
+- Validation Curves
+- Ridge Regression
+- Lasso Regression
+- ElasticNet
+- Polynomial Regression
+- Regularization Tuning
+
+---
+
+# Project Structure
+
+```text
+week5_supervised_learning/
+│
+├── notebooks/
+│   ├── day1_regression.ipynb
+│   ├── day2_decision_trees.ipynb
+│   ├── day3_random_forest.ipynb
+│   ├── day4_model_evaluation.ipynb
+│   └── day5_bias_variance_regularization.ipynb
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
+
+---
+
+# Concepts Covered
+
+## Bias-Variance Tradeoff
+
+Understanding:
+- underfitting
+- overfitting
+- model complexity
+- generalization
+
+Polynomial regression used to demonstrate:
+
+:contentReference[oaicite:0]{index=0}
+
+---
+
+## Learning Curves
+
+Used to diagnose:
+- high bias
+- high variance
+- training vs validation performance
+
+---
+
+## Ridge Regression
+
+L2 regularization reduces variance by penalizing large coefficients.
+
+:contentReference[oaicite:1]{index=1}
+
+---
+
+## Lasso Regression
+
+L1 regularization performs automatic feature selection.
+
+:contentReference[oaicite:2]{index=2}
+
+---
+
+## ElasticNet
+
+Combination of Ridge and Lasso regularization.
+
+Topics:
+- sparse modeling
+- correlated features
+- feature selection
+
+---
+
+## Validation Curves
+
+Used to tune regularization strength (`alpha`) and analyze model performance.
+
+---
+
+# Libraries Used
+
+- NumPy
+- Pandas
+- Scikit-learn
+
+---
+
+# Skills Practiced
+
+- Bias-variance diagnosis
+- Regularization tuning
+- Feature selection
+- Polynomial regression
+- Learning curve analysis
+- Validation curve analysis
+
+---
+
 # How to Run
 
 ```bash
@@ -511,6 +623,7 @@ notebooks/day1_regression.ipynb
 notebooks/day2_decision_trees.ipynb
 notebooks/day3_random_forest.ipynb
 notebooks/day4_model_evaluation.ipynb
+notebooks/day5_bias_variance_regularization.ipynb
 ```
 
 ---
